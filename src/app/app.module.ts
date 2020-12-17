@@ -14,6 +14,9 @@ import { NavbarComponent } from '../app/components/shared/navbar/navbar.componen
 import { AboutComponent } from './components/about/about.component';
 import { HeroesComponent } from './components/heroes/heroes.component';
 import { HomeComponent } from './components/home/home.component';
+import { HeroeComponent } from './components/heroe/heroe.component';
+import { SearchComponent } from './components/search/search.component';
+import { HeroeTarjetaComponent } from './components/heroe-tarjeta/heroe-tarjeta.component';
 
 
 
@@ -25,7 +28,10 @@ import { HomeComponent } from './components/home/home.component';
     NavbarComponent,
     AboutComponent,
     HeroesComponent,
-    HomeComponent
+    HomeComponent,
+    HeroeComponent,
+    SearchComponent,
+    HeroeTarjetaComponent
 
   ],
   imports: [
